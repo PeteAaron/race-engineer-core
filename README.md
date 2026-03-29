@@ -1,10 +1,10 @@
 # race-engineer-core
 
-Open-source race intelligence core for live Formula 1 session analysis. Built around the OpenF1 data feed, structured race-state models, and MCP-compatible tooling.
+Open-source race intelligence core for live Formula 1 session analysis. Built around the OpenF1 data feed, structured race-state models and MCP-compatible tooling.
 
 ## What this repo contains
 
-- Structured domain models for F1 sessions, stints, tyres, gaps, and pit strategy
+- Structured domain models for F1 sessions, stints, tyres, gaps and pit strategy
 - OpenF1 adapter layer for fetching and normalising live session data
 - Resolver primitives for answering race-state questions with evidence and confidence
 - Strategy inference primitives (undercut, overcut, DRS train, safety car opportunity)
@@ -30,7 +30,7 @@ Requires Python 3.11+.
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate        # Windows: .venv\Scripts\activate
+source .venv/Scripts/activate
 pip install -e ".[dev]"
 ```
 
