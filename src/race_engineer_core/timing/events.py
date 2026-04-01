@@ -16,12 +16,14 @@ from typing import Any
 
 
 class EventType(str, Enum):
-    SESSION_STATUS = "SESSION_STATUS"
+    SESSION_INFO = "SESSION_INFO"       # SessionInfo topic — session metadata (name, type, key, meeting)
+    SESSION_STATUS = "SESSION_STATUS"   # SessionStatus topic — lifecycle status (Started/Finished/…)
     TRACK_STATUS = "TRACK_STATUS"
     RACE_CONTROL_MESSAGE = "RACE_CONTROL_MESSAGE"
-    POSITION_UPDATE = "POSITION_UPDATE"
-    LAP_UPDATE = "LAP_UPDATE"
+    POSITION_UPDATE = "POSITION_UPDATE"  # Position.z — X/Y/Z track coordinates per driver
+    LAP_UPDATE = "LAP_UPDATE"            # TimingData — lap times + race-order position (Line)
     PIT_STOP = "PIT_STOP"
+    DRIVER_LIST = "DRIVER_LIST"          # DriverList — driver number → name/team mapping
     UNSUPPORTED = "UNSUPPORTED"
 
 

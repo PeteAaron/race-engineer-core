@@ -1,0 +1,23 @@
+{
+  "Messages": {
+    "0": {
+      "Utc": "2024-03-02T15:02:00",
+      "Lap": 1,
+      "Category": "Flag",
+      "Message": "GREEN LIGHT - PIT EXIT OPEN",
+      "Flag": "GREEN",
+      "Scope": "Track",
+      "Sector": null,
+      "RacingNumber": null
+    },
+    "1": {
+      "Utc": "2024-03-02T15:45:00",
+      "Category": "SafetyCar",
+      "Message": "VIRTUAL SAFETY CAR DEPLOYED",
+      "Flag": "YELLOW",
+      "Scope": "Track",
+      "Sector": null,
+      "RacingNumber": null
+    }
+  }
+}

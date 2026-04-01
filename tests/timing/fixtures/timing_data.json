@@ -1,0 +1,49 @@
+{
+  "Lines": {
+    "1": {
+      "GapToLeader": "",
+      "IntervalToPositionAhead": {"Value": ""},
+      "Line": 1,
+      "Position": "1",
+      "ShowPosition": true,
+      "RacingNumber": "1",
+      "Retired": false,
+      "InPit": false,
+      "PitOut": false,
+      "Stopped": false,
+      "Status": 0,
+      "NumberOfLaps": 5,
+      "NumberOfPitStops": 0,
+      "BestLapTime": {"Value": "1:31.421"},
+      "LastLapTime": {
+        "Value": "1:32.456",
+        "Status": 0,
+        "OverallFastest": false,
+        "PersonalFastest": false
+      }
+    },
+    "44": {
+      "GapToLeader": "+14.000",
+      "IntervalToPositionAhead": {"Value": "+14.000"},
+      "Line": 2,
+      "Position": "2",
+      "ShowPosition": true,
+      "RacingNumber": "44",
+      "Retired": false,
+      "InPit": false,
+      "PitOut": false,
+      "Stopped": false,
+      "Status": 0,
+      "NumberOfLaps": 5,
+      "NumberOfPitStops": 0,
+      "BestLapTime": {"Value": "1:31.569"},
+      "LastLapTime": {
+        "Value": "1:32.891",
+        "Status": 0,
+        "OverallFastest": false,
+        "PersonalFastest": false
+      }
+    }
+  },
+  "NoEntries": false
+}

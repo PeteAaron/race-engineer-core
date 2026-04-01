@@ -1,0 +1,14 @@
+{
+  "_comment": "Decompressed form of a Position.z message. The transport layer handles base64+deflate; the normalizer receives this dict directly.",
+  "Position": [
+    {
+      "Timestamp": "00:15:23.456",
+      "Entries": {
+        "1":  {"Status": "OnTrack", "X": 3987,  "Y": -1234, "Z": 100},
+        "44": {"Status": "OnTrack", "X": 4102,  "Y": -1189, "Z": 102},
+        "16": {"Status": "OnTrack", "X": 3845,  "Y": -1301, "Z": 98},
+        "63": {"Status": "OnPitLane", "X": 1200, "Y": 800,  "Z": 0}
+      }
+    }
+  ]
+}
