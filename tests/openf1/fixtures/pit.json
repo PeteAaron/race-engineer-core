@@ -1,0 +1,16 @@
+[
+  {
+    "session_key": 9158,
+    "driver_number": 44,
+    "lap_number": 20,
+    "date": "2023-11-26T13:32:15+00:00",
+    "pit_duration": 23.4
+  },
+  {
+    "session_key": 9158,
+    "driver_number": 1,
+    "lap_number": 22,
+    "date": "2023-11-26T13:35:45+00:00",
+    "pit_duration": 22.8
+  }
+]

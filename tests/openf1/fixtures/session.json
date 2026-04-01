@@ -1,0 +1,19 @@
+[
+  {
+    "session_key": 9158,
+    "session_name": "Race",
+    "session_type": "Race",
+    "date_start": "2023-11-26T13:00:00+00:00",
+    "date_end": "2023-11-26T14:48:00+00:00",
+    "gmt_offset": "04:00:00",
+    "location": "Abu Dhabi",
+    "country_key": 149,
+    "country_code": "UAE",
+    "country_name": "United Arab Emirates",
+    "circuit_key": 24,
+    "circuit_short_name": "Abu Dhabi",
+    "meeting_key": 1219,
+    "meeting_name": "Abu Dhabi Grand Prix",
+    "year": 2023
+  }
+]

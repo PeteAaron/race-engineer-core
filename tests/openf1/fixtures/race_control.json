@@ -1,0 +1,35 @@
+[
+  {
+    "session_key": 9158,
+    "date": "2023-11-26T13:00:00+00:00",
+    "lap_number": 1,
+    "category": "Flag",
+    "flag": "GREEN",
+    "scope": "Track",
+    "message": "GREEN LIGHT - PIT EXIT OPEN",
+    "driver_number": null,
+    "sector": null
+  },
+  {
+    "session_key": 9158,
+    "date": "2023-11-26T13:12:44+00:00",
+    "lap_number": 8,
+    "category": "SafetyCar",
+    "flag": "YELLOW",
+    "scope": "Track",
+    "message": "VIRTUAL SAFETY CAR DEPLOYED",
+    "driver_number": null,
+    "sector": null
+  },
+  {
+    "session_key": 9158,
+    "date": "2023-11-26T13:15:10+00:00",
+    "lap_number": 9,
+    "category": "SafetyCar",
+    "flag": "GREEN",
+    "scope": "Track",
+    "message": "VIRTUAL SAFETY CAR ENDING",
+    "driver_number": null,
+    "sector": null
+  }
+]

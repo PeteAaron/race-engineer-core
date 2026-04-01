@@ -153,7 +153,7 @@ class LiveTimingClient:
         try:
             ws = websocket.WebSocket()
             ws.settimeout(30.0)
-            ws.connect(ws_url)
+            ws.connect(ws_url, origin="https://livetiming.formula1.com")
         except Exception:
             logger.exception("client: websocket connect failed url=%s", ws_url)
             return False
