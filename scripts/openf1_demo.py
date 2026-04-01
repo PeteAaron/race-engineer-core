@@ -23,8 +23,8 @@ from pathlib import Path
 # Allow running from repo root without installing the package
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
-from race_engineer_core.adapters.openf1 import OpenF1Client, OpenF1SessionLoader
-from race_engineer_core.source import DataSource, load_state
+from race_engineer_core.sources.openf1 import OpenF1Client, OpenF1SessionLoader
+from race_engineer_core.sources import DataSource, load_state
 
 
 def _print_state(state) -> None:
